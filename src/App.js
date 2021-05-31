@@ -40,8 +40,6 @@ export default function App() {
       <div className="container">
         <div className="toolbar">
           Tool:{tool}
-          <br />
-          {isDrawing ? "true" : "false"}
           <button className="tool" onClick={() => setTool("pen")}>
             <img src="/icons/pen.svg" alt="pen" />
           </button>
